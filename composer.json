@@ -1,0 +1,17 @@
+{
+  "name": "lukaszfilipowski/sumistan-roads",
+  "description": "",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Lukasz Filipowski",
+      "email": "lukasz.filipowski19@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "league/csv": "^9.7"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
