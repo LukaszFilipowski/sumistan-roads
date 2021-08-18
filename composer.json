@@ -8,9 +8,15 @@
       "email": "lukasz.filipowski19@gmail.com"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
   "require": {
     "php": "^7.4",
-    "league/csv": "^9.7"
+    "league/csv": "^9.7",
+    "fisharebest/algorithm": "^1.5"
   },
   "minimum-stability": "dev",
   "prefer-stable": true

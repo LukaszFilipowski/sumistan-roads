@@ -1,10 +1,12 @@
 <?php
 
+namespace App\Model;
+
 class Road
 {
-    private string $from;
-    private string $to;
-    private int $cost;
+    public string $from;
+    public string $to;
+    public int $cost;
 
     public function __construct(string $from, string $to, int $cost)
     {
